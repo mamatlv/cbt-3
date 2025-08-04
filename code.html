@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBT AVSEC Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CBT AVSEC</h1>
+        <div id="quiz-container">
+            <div id="timer">Waktu: <span id="time">35</span> detik</div>
+            <div id="question-number">Soal ke: <span id="current-question">1</span> / <span id="total-questions"></span></div>
+            <h2 id="question-text"></h2>
+            <div id="options-container" class="options">
+                <!-- Pilihan jawaban akan dimuat di sini oleh JavaScript -->
+            </div>
+            <button id="next-button">Soal Selanjutnya</button>
+        </div>
+        <div id="result-container" style="display:none;">
+            <h2>Hasil Ujian</h2>
+            <p>Jumlah Benar: <span id="correct-answers"></span></p>
+            <p>Jumlah Salah: <span id="wrong-answers"></span></p>
+            <button id="restart-button">Ulangi Ujian</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
